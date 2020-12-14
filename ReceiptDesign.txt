@@ -1,0 +1,16 @@
+Receipt class holds single receipt info
+- who paid for that receipt
+- the total for the receipt
+- if any roommates bought a single item for themselves, and how much it was
+
+Roommate class holds single roommate's info
+- their name
+- how much they have paid for groceries/other items
+- how much each other roommate owes them for individual purchase
+    - this way roommate can be passed as delegate consistently
+
+ACTIONS THAT NEED TO HAPPEN
+- Main menu with each roommate
+- a roommate menu for calculating different types of receipts
+    -> select a receipt type (tip, no tip) and ask how many of that type of receipt
+    -> add this to the roommate info
